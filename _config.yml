@@ -17,5 +17,5 @@ author: atecon
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: Dbyll
-# theme: jekyll-theme-minimal
+theme: jekyll-theme-dbyll
+#theme: jekyll-theme-minimal
