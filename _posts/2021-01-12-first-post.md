@@ -1,5 +1,5 @@
 ---
- layout: single
+ layout: post
  categories: [blog]
  permalink: /:categories/:year/:month/:day/:title/
  classes: wide

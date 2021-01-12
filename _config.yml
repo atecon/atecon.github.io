@@ -25,20 +25,27 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atecon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: atecon1
-github_username: atecon​‌​
-linkedin_username: artur-tarassow-39690416
-# stackoverflow_username: foo
-
 #author:
 name: atecon
 author: Artur Tarassow
   #avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
 bio: Economist, Data Scientist and developer
 
-# Build settings
+
+twitter_username: atecon1
+github_username: atecon​‌​
+linkedin_username: artur-tarassow-39690416
+# stackoverflow_username: foo
+
+
+# Theme
 theme: minima     # default: minima
+minima:
+  skin: dark
+
 #remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+
+# Build settings
 plugins:
   - jekyll-include-cache # needed by 'minimal-mistakes' theme
   #- jekyll-feed
@@ -48,13 +55,17 @@ highlighter: rouge
 
 title-logo: /images/me.png
 
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 
 relative_links:
   enabled: true
   collections: true
 
+
+header_pages:
+#  - about.md
+#  - projects.md
 
 include:
   - _pages
