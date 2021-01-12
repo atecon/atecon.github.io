@@ -19,3 +19,8 @@ markdown: kramdown
 highlighter: rouge
 # theme: jekyll-theme-dbyll
 theme: jekyll-theme-minimal
+
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: atecon
+  twitter: atecon1
