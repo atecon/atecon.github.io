@@ -7,3 +7,5 @@ title: About
 
 This is a page about something.
 
+
+[Back to homepage](index.md)
