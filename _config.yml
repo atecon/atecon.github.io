@@ -24,3 +24,11 @@ theme: jekyll-theme-minimal
 footer-links:
   github: atecon
   twitter: atecon1
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
