@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
-#     bundle exec jekyll serve
+#     bundle exec jekyll serve --livereload
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
@@ -24,6 +24,11 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
+
+# For minimimal-mistakes theme
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-include-cache'
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]

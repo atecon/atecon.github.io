@@ -18,33 +18,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to my page
-#email: your-email@example.com
+title: atecon's site
+email: atecon@posteo.de
 description: >- # this means to ignore newlines until "baseurl:"
   About projects and some kind of blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atecon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: atecon1
-github_username:  atecon​‌​
+github_username: atecon​‌​
+linkedin_username: artur-tarassow-39690416
 # stackoverflow_username: foo
 
 #author:
 name: atecon
+author: Artur Tarassow
   #avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
 bio: Economist, Data Scientist and developer
 
 # Build settings
-theme: minima
+theme: minima     # default: minima
+# remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache # needed by 'minimal-mistakes' theme
+  #- jekyll-feed
 markdown: kramdown
 highlighter: rouge
+
+title-logo: /images/me.png
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 
 relative_links:
   enabled: true
   collections: true
 
+
+include:
+  - _pages
 
 
 # Exclude from processing.

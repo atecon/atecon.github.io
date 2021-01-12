@@ -1,15 +1,15 @@
 # Some stuff from myself
 To be written
 
-## Test
 
-# Some other headline
-
-
-# Installation
-# References
+# References for working with github-pages and jekyll
 - https://youtu.be/EmSrQCDsMv4
+- https://ejayledesma.github.io/blog/2019/08/12/building-my-website-using-GitHub-Pages-and-Jekyll/
 
+
+# Installation of jekyll under ubuntu
+
+```
 # Install jekyll
 sudo apt-get install ruby-full build-essential zlib1g-dev
 gem install jekyll bundler
@@ -23,3 +23,4 @@ source ~/.bashrc
 # Enter repo of interest and...
 gem install jekyll bundler
 jekyll new . --force
+```
