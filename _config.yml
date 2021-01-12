@@ -1,45 +1,68 @@
-# basic options
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: Welcome to my page
-description: About projects and some kind of blog
-author:
-  name: atecon
-  avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
-  bio: Economist, Data Scientist and developer
-#twitter_username: atecon1
-#github_username: atecon
-# url: "https://github.com/atecon/atecon.github.io"
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  About projects and some kind of blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://atecon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: atecon1
+github_username:  atecon​‌​
+# stackoverflow_username: foo
+
+#author:
+name: atecon
+  #avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
+bio: Economist, Data Scientist and developer
 
 # Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 markdown: kramdown
 highlighter: rouge
-# theme: jekyll-theme-dbyll
-theme: jekyll-theme-minimal
 
-# Includes an icon in the footer for each user name you enter
-footer-links:
-  github: atecon
-  twitter: atecon1
-  # stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-
-plugins:
-  - jekyll-relative-links
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  
 relative_links:
   enabled: true
   collections: true
 
-include:
-  - README.md
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
 
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
