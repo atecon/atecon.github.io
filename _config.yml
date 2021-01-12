@@ -1,11 +1,11 @@
 # basic options
-title: Some title
+title: Welcome to my page
 author: atecon
-email: foo@foo.com
+# email: foo@foo.com
 twitter_username: atecon1
 github_username: atecon
-name: foo
-description: some cool description
+# name: foo
+description: About projects and some kind of blog
 # url: "https://github.com/atecon/atecon.github.io"
 
 # Build settings
