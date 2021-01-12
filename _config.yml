@@ -11,4 +11,5 @@ description: About projects and some kind of blog
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: jekyll-theme-Dbyll
+theme: Dbyll
+# theme: jekyll-theme-minimal
