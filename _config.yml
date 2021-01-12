@@ -1,11 +1,17 @@
 # basic options
 title: Welcome to my page
-author: atecon
-# email: foo@foo.com
-twitter_username: atecon1
-github_username: atecon
-# name: foo
 description: About projects and some kind of blog
+author:
+  name: atecon
+  #author: atecon
+  #email: dbyll@ismaildemirbilek.com
+  github: atecon
+  twitter: atecon1
+  bio: Economist, Data Scientist and developer
+  #email_md5: 726351295ec82e145928582f595aa3aa
+author: atecon
+#twitter_username: atecon1
+#github_username: atecon
 # url: "https://github.com/atecon/atecon.github.io"
 
 # Build settings
