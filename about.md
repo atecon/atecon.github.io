@@ -1,3 +1,5 @@
+<h1>About us</h1>
+
 ---
 layout: page
 title: About
