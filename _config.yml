@@ -6,7 +6,7 @@ twitter_username: atecon1
 github_username: atecon
 name: foo
 description: some cool description
-url: "https://github.com/atecon/atecon.github.io"
+# url: "https://github.com/atecon/atecon.github.io"
 
 # Build settings
 markdown: kramdown
