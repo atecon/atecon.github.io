@@ -38,10 +38,11 @@ bio: Economist, Data Scientist and developer
 
 # Build settings
 theme: minima     # default: minima
-# remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+#remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 plugins:
   - jekyll-include-cache # needed by 'minimal-mistakes' theme
   #- jekyll-feed
+  - jekyll-sitemap
 markdown: kramdown
 highlighter: rouge
 
