@@ -1,6 +1,14 @@
+# basic options
+title: Some title
+author: atecon
+email: foo@foo.com
+twitter_username: atecon1
+github_username: atecon
 name: foo
 description: some cool description
 url: "https://github.com/atecon/atecon.github.io"
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
 theme: jekyll-theme-minimal
