@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to my website! on atecon&#39;s blog</title>
+    <link>https://atecon.github.io/</link>
+    <description>Recent content in Welcome to my website! on atecon&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 09:58:44 +0100</lastBuildDate><atom:link href="https://atecon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About myself</title>
+      <link>https://atecon.github.io/about/</link>
+      <pubDate>Sat, 16 Jan 2021 18:30:10 +0100</pubDate>
+      
+      <guid>https://atecon.github.io/about/</guid>
+      <description>I’m an economist currently working as a Senior Data Scientist at www.otto.de &amp;ndash; Europe&amp;rsquo;s 2nd largest e-commerce shop after Amazon.
+I love the idea of open-source, and try to contribute to that idea. I have written or co-authored quite a number of packages for the open-source statistics and econometrics library named Gretl.
+Here is an overview about my Gretl packages.
+Additionally, I am an official package reviewer for Gretl. Apart from that, I have co-founded the Gretl Association and currently I act as the vice-chairman of it ;-)</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://atecon.github.io/research/research1/</link>
+      <pubDate>Sat, 16 Jan 2021 17:52:31 +0100</pubDate>
+      
+      <guid>https://atecon.github.io/research/research1/</guid>
+      <description>This is on &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Test post</title>
+      <link>https://atecon.github.io/posts/mypost/</link>
+      <pubDate>Fri, 15 Jan 2021 18:58:14 +0100</pubDate>
+      
+      <guid>https://atecon.github.io/posts/mypost/</guid>
+      <description>Test post blablabla
+cd ... </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on atecon&#39;s blog</title>
+    <link>https://atecon.github.io/projects/</link>
+    <description>Recent content in Projects on atecon&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jan 2021 19:29:30 +0100</lastBuildDate><atom:link href="https://atecon.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
