@@ -6,16 +6,7 @@
     <description>Recent content on atecon&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 20:35:24 +0200</lastBuildDate><atom:link href="https://atecon.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Post</title>
-      <link>https://atecon.github.io/post/post/</link>
-      <pubDate>Sun, 25 Jul 2021 20:35:24 +0200</pubDate>
-      
-      <guid>https://atecon.github.io/post/post/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 25 Jul 2021 19:12:51 +0200</lastBuildDate><atom:link href="https://atecon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyzing football data using gretl</title>
       <link>https://atecon.github.io/post/football_gretl/football_data/</link>
@@ -25,6 +16,17 @@
       <description>Introduction Recently I stumbled over Julius Krumbiegel&amp;rsquo;s nice little data analysis exercise entitled &amp;ldquo;Analyzing international football results with Julia&amp;rdquo;. As the title already says, he&amp;rsquo;s using Julia for this task.
 The dataset used is cool, and I thought that this may be a nice little exercise to show how to replicate Julius&#39; results using my favourite data tool named gretl &amp;ndash; an open-source statistics and econometrics cross-platform software.
 You can find my repository hosting the script, data and output of this exercise here.</description>
+    </item>
+    
+    <item>
+      <title>About myself</title>
+      <link>https://atecon.github.io/about/</link>
+      <pubDate>Sat, 16 Jan 2021 18:30:10 +0100</pubDate>
+      
+      <guid>https://atecon.github.io/about/</guid>
+      <description>I’m an economist currently working as a Senior Data Scientist at www.otto.de &amp;ndash; one of the Europe&amp;rsquo;s largest e-commerce shops. My main job is to develop forecasting models in the retail and logistics field, respectively.
+I love the idea of open-source, and try to contribute to that idea. I have written or co-authored quite a number of packages for the open-source statistics and econometrics library named Gretl.
+Here is an overview about my Gretl packages.</description>
     </item>
     
   </channel>
