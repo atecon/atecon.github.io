@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>atecon&#39;s blog</title>
-    <link>https://atecon.github.io/</link>
-    <description>Recent content on atecon&#39;s blog</description>
+    <title>gretl on atecon&#39;s blog</title>
+    <link>https://atecon.github.io/tags/gretl/</link>
+    <description>Recent content in gretl on atecon&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 20:35:24 +0200</lastBuildDate><atom:link href="https://atecon.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Post</title>
-      <link>https://atecon.github.io/post/post/</link>
-      <pubDate>Sun, 25 Jul 2021 20:35:24 +0200</pubDate>
-      
-      <guid>https://atecon.github.io/post/post/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 25 Jul 2021 19:12:51 +0200</lastBuildDate><atom:link href="https://atecon.github.io/tags/gretl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyzing football data using gretl</title>
       <link>https://atecon.github.io/post/football_gretl/football_data/</link>

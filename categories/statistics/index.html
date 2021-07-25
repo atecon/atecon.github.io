@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Economist, Data Scientist, Developer">
   <meta name="generator" content="Hugo 0.86.0" />
 
-  <title>Post &middot; atecon&#39;s blog</title>
+  <title>statistics &middot; atecon&#39;s blog</title>
 
     
 
@@ -42,6 +42,9 @@
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
+  
+  <link rel="alternate" type="application/rss+xml" title="atecon&#39;s blog"
+    href='https://atecon.github.io/categories/statistics/index.xml' />
   
 
   
@@ -107,6 +110,11 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://atecon.github.io/categories/statistics/index.xml'><i
+          class="fas fa-rss fa-fw"></i>RSS</a>
+    </li>
     
 
     
@@ -216,101 +224,60 @@
 
 
 <div class="header">
-  <h1>Post</h1>
-  <h2></h2>
+  <h1>statistics</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://atecon.github.io/post/football_gretl/football_data/">Analyzing football data using gretl</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>25 Jul 2021, 20:35</time>
+    <time>25 Jul 2021, 19:12</time>
   </div>
 
   
 
   
 
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://atecon.github.io/tags/gretl">gretl</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://atecon.github.io/tags/data">data</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://atecon.github.io/tags/football">football</a>
+    
+  </div>
+  
   
 
 </div>
 
-  
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fatecon.github.io%2fpost%2fpost%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
+  </header>
 
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  <p>
+  Introduction Recently I stumbled over Julius Krumbiegel&rsquo;s nice little data analysis exercise entitled &ldquo;Analyzing international football results with Julia&rdquo;. As the title already says, he&rsquo;s using Julia for this task.
+The dataset used is cool, and I thought that this may be a nice little exercise to show how to replicate Julius' results using my favourite data tool named gretl &ndash; an open-source statistics and econometrics cross-platform software.
+You can find my repository hosting the script, data and output of this exercise here.
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://atecon.github.io/post/football_gretl/football_data/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://atecon.github.io/post/football_gretl/football_data/">Analyzing football data using gretl</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-  </div>
-</div>
-
+  <footer>
+    <a href="https://atecon.github.io/post/football_gretl/football_data/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-  
-  
-  
-
-  
-
 </div>
 
 </div>
@@ -329,4 +296,3 @@
 
 </body>
 </html>
-
