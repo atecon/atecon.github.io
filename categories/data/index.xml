@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 25 Jul 2021 19:12:51 +0200</lastBuildDate><atom:link href="https://atecon.github.io/categories/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyzing football data using gretl</title>
-      <link>https://atecon.github.io/post/football_gretl/</link>
+      <link>https://atecon.github.io/football_gretl/</link>
       <pubDate>Sun, 25 Jul 2021 19:12:51 +0200</pubDate>
       
-      <guid>https://atecon.github.io/post/football_gretl/</guid>
+      <guid>https://atecon.github.io/football_gretl/</guid>
       <description>Introduction Recently I stumbled over Julius Krumbiegel&amp;rsquo;s nice little data analysis exercise entitled &amp;ldquo;Analyzing international football results with Julia&amp;rdquo;. As the title already says, he&amp;rsquo;s using Julia for this task.
 The dataset used is cool, and I thought that this may be a nice little exercise to show how to replicate Julius&#39; results using my favourite data tool named gretl &amp;ndash; an open-source statistics and econometrics cross-platform software.
 You can find my repository hosting the script, data and output of this exercise here.</description>
