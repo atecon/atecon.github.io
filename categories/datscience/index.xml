@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datscience on atecon&#39;s blog</title>
+    <link>https://atecon.github.io/categories/datscience/</link>
+    <description>Recent content in datscience on atecon&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jul 2021 12:16:32 +0200</lastBuildDate><atom:link href="https://atecon.github.io/categories/datscience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended packages for the Sublime editor</title>
+      <link>https://atecon.github.io/sublime_packages/</link>
+      <pubDate>Mon, 26 Jul 2021 12:16:32 +0200</pubDate>
+      
+      <guid>https://atecon.github.io/sublime_packages/</guid>
+      <description>Introduction One and a half years ago I switched to the Sublime editor as my favourite code editor (or IDE). For Python I used to use mainly IntelliJ but always thought that it feels too sluggish, slow and consumes rather massive memory. Also, I don&amp;rsquo;t like its default key bindings (I know, everything can be set up here, too. But still&amp;hellip;)
+Furthermore, as I am a heavy gretl user, I came across Sublime as it&amp;rsquo;s relatively easy to write your own package for adding syntax support for a new language.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,13 +6,22 @@
     <description>Recent content in Categories on atecon&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 19:12:51 +0200</lastBuildDate><atom:link href="https://atecon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 12:16:32 +0200</lastBuildDate><atom:link href="https://atecon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data</title>
       <link>https://atecon.github.io/categories/data/</link>
-      <pubDate>Sun, 25 Jul 2021 19:12:51 +0200</pubDate>
+      <pubDate>Mon, 26 Jul 2021 12:16:32 +0200</pubDate>
       
       <guid>https://atecon.github.io/categories/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datscience</title>
+      <link>https://atecon.github.io/categories/datscience/</link>
+      <pubDate>Mon, 26 Jul 2021 12:16:32 +0200</pubDate>
+      
+      <guid>https://atecon.github.io/categories/datscience/</guid>
       <description></description>
     </item>
     
